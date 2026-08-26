@@ -1,0 +1,1966 @@
+{
+  "Tablas de resultados": [
+    {
+      "titulo": "Tension DC",
+      "mesurando": "Tensión eléctrica continua",
+      "unit": "mV, V, %L",
+      "ecuation_calibration": "",
+      "range": "100 mV - 1 000 V",
+      "columnas": [
+        {
+          "key": "intervalo",
+          "label": "Intervalo",
+          "unit": "",
+          "type": "string"
+        },
+        {
+          "key": "valor_referencia",
+          "label": "Patrón Valor de Referencia de la Magnitud",
+          "unit": "mV, V",
+          "type": "string"
+        },
+        {
+          "key": "indicacion_promedio",
+          "label": "Indicación Promedio",
+          "unit": "mV, V",
+          "type": "string"
+        },
+        {
+          "key": "sesgo_instrumental_unidades",
+          "label": "Sesgo Instrumental",
+          "unit": "mV, V",
+          "type": "string"
+        },
+        {
+          "key": "sesgo_instrumental_porcentaje",
+          "label": "Sesgo Instrumental",
+          "unit": "%L",
+          "type": "string"
+        },
+        {
+          "key": "incertidumbre",
+          "label": "Incertidumbre Instrumental ¹",
+          "unit": "%L",
+          "type": "string"
+        },
+        {
+          "key": "limite_especificacion_inferior",
+          "label": "Límites de Especificación (Inferior)",
+          "unit": "mV, V",
+          "type": "string"
+        },
+        {
+          "key": "limite_especificacion_superior",
+          "label": "Límites de Especificación (Superior)",
+          "unit": "mV, V",
+          "type": "string"
+        }
+      ],
+      "filas": [
+        {
+          "intervalo": "100 mV",
+          "valor_referencia": "0,999 94",
+          "indicacion_promedio": "0,999 8",
+          "sesgo_instrumental_unidades": "-0,000 1",
+          "sesgo_instrumental_porcentaje": "-0,012",
+          "incertidumbre": "±0,042",
+          "limite_especificacion_inferior": "0,996 4",
+          "limite_especificacion_superior": "1,003 5"
+        },
+        {
+          "intervalo": "100 mV",
+          "valor_referencia": "21,999 79",
+          "indicacion_promedio": "21,999 6",
+          "sesgo_instrumental_unidades": "-0,000 2",
+          "sesgo_instrumental_porcentaje": "-0,001 1",
+          "incertidumbre": "±0,002 6",
+          "limite_especificacion_inferior": "21,995 2",
+          "limite_especificacion_superior": "22,004 4"
+        },
+        {
+          "intervalo": "100 mV",
+          "valor_referencia": "99,999 36",
+          "indicacion_promedio": "99,998 1",
+          "sesgo_instrumental_unidades": "-0,001 3",
+          "sesgo_instrumental_porcentaje": "-0,001 3",
+          "incertidumbre": "±0,001 3",
+          "limite_especificacion_inferior": "99,990 9",
+          "limite_especificacion_superior": "100,007 9"
+        },
+        {
+          "intervalo": "1 V",
+          "valor_referencia": "0,099 999 4",
+          "indicacion_promedio": "0,099 998",
+          "sesgo_instrumental_unidades": "-0,000 001",
+          "sesgo_instrumental_porcentaje": "-0,000 9",
+          "incertidumbre": "±0,001 4",
+          "limite_especificacion_inferior": "0,099 992",
+          "limite_especificacion_superior": "0,100 007"
+        },
+        {
+          "intervalo": "1 V",
+          "valor_referencia": "0,999 997 0",
+          "indicacion_promedio": "1,000 007",
+          "sesgo_instrumental_unidades": "0,000 010",
+          "sesgo_instrumental_porcentaje": "0,001 05",
+          "incertidumbre": "±0,000 58",
+          "limite_especificacion_inferior": "0,999 958",
+          "limite_especificacion_superior": "1,000 036"
+        },
+        {
+          "intervalo": "10 V",
+          "valor_referencia": "0,999 997",
+          "indicacion_promedio": "1,000 01",
+          "sesgo_instrumental_unidades": "0,000 01",
+          "sesgo_instrumental_porcentaje": "0,001 25",
+          "incertidumbre": "±0,000 82",
+          "limite_especificacion_inferior": "0,999 93",
+          "limite_especificacion_superior": "1,000 07"
+        },
+        {
+          "intervalo": "10 V",
+          "valor_referencia": "9,999 963",
+          "indicacion_promedio": "9,999 90",
+          "sesgo_instrumental_unidades": "-0,000 06",
+          "sesgo_instrumental_porcentaje": "-0,000 64",
+          "incertidumbre": "±0,000 39",
+          "limite_especificacion_inferior": "9,999 62",
+          "limite_especificacion_superior": "10,000 30"
+        },
+        {
+          "intervalo": "100 V",
+          "valor_referencia": "9,999 96",
+          "indicacion_promedio": "9,999 9",
+          "sesgo_instrumental_unidades": "-0,000 1",
+          "sesgo_instrumental_porcentaje": "-0,000 64",
+          "incertidumbre": "±0,000 69",
+          "limite_especificacion_inferior": "9,999 0",
+          "limite_especificacion_superior": "10,001 0"
+        },
+        {
+          "intervalo": "100 V",
+          "valor_referencia": "99,999 75",
+          "indicacion_promedio": "99,999 5",
+          "sesgo_instrumental_unidades": "-0,000 3",
+          "sesgo_instrumental_porcentaje": "-0,000 25",
+          "incertidumbre": "±0,000 57",
+          "limite_especificacion_inferior": "99,995 2",
+          "limite_especificacion_superior": "100,004 3"
+        },
+        {
+          "intervalo": "1 000 V",
+          "valor_referencia": "99,999 8",
+          "indicacion_promedio": "99,999",
+          "sesgo_instrumental_unidades": "-0,001",
+          "sesgo_instrumental_porcentaje": "-0,000 75",
+          "incertidumbre": "±0,000 81",
+          "limite_especificacion_inferior": "99,996",
+          "limite_especificacion_superior": "100,004"
+        },
+        {
+          "intervalo": "1 000 V",
+          "valor_referencia": "999,999 1",
+          "indicacion_promedio": "999,994",
+          "sesgo_instrumental_unidades": "-0,005",
+          "sesgo_instrumental_porcentaje": "-0,000 46",
+          "incertidumbre": "±0,000 76",
+          "limite_especificacion_inferior": "989,959",
+          "limite_especificacion_superior": "1 010,039"
+        }
+      ]
+    },
+    {
+      "titulo": "Tension AC",
+      "mesurando": "Tensión eléctrica alterna",
+      "unit": "mV, V, %L",
+      "ecuation_calibration": "",
+      "range": "100 mV @ 40 Hz - 750 V @ 60 Hz",
+      "columnas": [
+        {
+          "key": "intervalo",
+          "label": "Intervalo",
+          "unit": "",
+          "type": "string"
+        },
+        {
+          "key": "valor_referencia",
+          "label": "Patrón Valor de Referencia de la Magnitud",
+          "unit": "mV, V",
+          "type": "number"
+        },
+        {
+          "key": "indicacion_promedio",
+          "label": "Indicación Promedio",
+          "unit": "mV, V",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_unidades",
+          "label": "Sesgo Instrumental",
+          "unit": "mV, V",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_porcentaje",
+          "label": "Sesgo Instrumental",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "incertidumbre",
+          "label": "Incertidumbre Instrumental ¹",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_inferior",
+          "label": "Límites de Especificación (Inferior)",
+          "unit": "mV, V",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_superior",
+          "label": "Límites de Especificación (Superior)",
+          "unit": "mV, V",
+          "type": "number"
+        }
+      ],
+      "filas": [
+        {
+          "intervalo": "100 mV @ 40 Hz",
+          "valor_referencia": 10.0001,
+          "indicacion_promedio": 9.999,
+          "sesgo_instrumental_unidades": -0.001,
+          "sesgo_instrumental_porcentaje": -0.014,
+          "incertidumbre": 0.05,
+          "limite_especificacion_inferior": 9.975,
+          "limite_especificacion_superior": 10.025
+        },
+        {
+          "intervalo": "100 mV @ 40 Hz",
+          "valor_referencia": 99.9988,
+          "indicacion_promedio": 99.994,
+          "sesgo_instrumental_unidades": -0.005,
+          "sesgo_instrumental_porcentaje": -0.005,
+          "incertidumbre": 0.016,
+          "limite_especificacion_inferior": 99.929,
+          "limite_especificacion_superior": 100.069
+        },
+        {
+          "intervalo": "1 V @ 40 Hz",
+          "valor_referencia": 0.0999988,
+          "indicacion_promedio": 0.099981,
+          "sesgo_instrumental_unidades": -0.000018,
+          "sesgo_instrumental_porcentaje": -0.018,
+          "incertidumbre": 0.016,
+          "limite_especificacion_inferior": 0.099749,
+          "limite_especificacion_superior": 0.100249
+        },
+        {
+          "intervalo": "1 V @ 40 Hz",
+          "valor_referencia": 0.999998,
+          "indicacion_promedio": 0.999979,
+          "sesgo_instrumental_unidades": -0.000019,
+          "sesgo_instrumental_porcentaje": -0.0019,
+          "incertidumbre": 0.0055,
+          "limite_especificacion_inferior": 0.999298,
+          "limite_especificacion_superior": 1.000698
+        },
+        {
+          "intervalo": "10 V @ 40 Hz",
+          "valor_referencia": 0.999998,
+          "indicacion_promedio": 0.99989,
+          "sesgo_instrumental_unidades": -0.00011,
+          "sesgo_instrumental_porcentaje": -0.0108,
+          "incertidumbre": 0.0055,
+          "limite_especificacion_inferior": 0.9975,
+          "limite_especificacion_superior": 1.0025
+        },
+        {
+          "intervalo": "10 V @ 40 Hz",
+          "valor_referencia": 10.000097,
+          "indicacion_promedio": 9.99975,
+          "sesgo_instrumental_unidades": -0.00035,
+          "sesgo_instrumental_porcentaje": -0.0035,
+          "incertidumbre": 0.0052,
+          "limite_especificacion_inferior": 9.9931,
+          "limite_especificacion_superior": 10.0071
+        },
+        {
+          "intervalo": "100 V @ 40 Hz",
+          "valor_referencia": 10.0001,
+          "indicacion_promedio": 9.9984,
+          "sesgo_instrumental_unidades": -0.0017,
+          "sesgo_instrumental_porcentaje": -0.0166,
+          "incertidumbre": 0.0053,
+          "limite_especificacion_inferior": 9.9751,
+          "limite_especificacion_superior": 10.0251
+        },
+        {
+          "intervalo": "100 V @ 40 Hz",
+          "valor_referencia": 20.00018,
+          "indicacion_promedio": 19.9984,
+          "sesgo_instrumental_unidades": -0.0017,
+          "sesgo_instrumental_porcentaje": -0.0087,
+          "incertidumbre": 0.005,
+          "limite_especificacion_inferior": 19.9702,
+          "limite_especificacion_superior": 20.0302
+        },
+        {
+          "intervalo": "100 V @ 40 Hz",
+          "valor_referencia": 39.99979,
+          "indicacion_promedio": 39.9978,
+          "sesgo_instrumental_unidades": -0.002,
+          "sesgo_instrumental_porcentaje": -0.005,
+          "incertidumbre": 0.0073,
+          "limite_especificacion_inferior": 39.9598,
+          "limite_especificacion_superior": 40.0398
+        },
+        {
+          "intervalo": "100 V @ 40 Hz",
+          "valor_referencia": 59.9997,
+          "indicacion_promedio": 59.9968,
+          "sesgo_instrumental_unidades": -0.0029,
+          "sesgo_instrumental_porcentaje": -0.0048,
+          "incertidumbre": 0.0069,
+          "limite_especificacion_inferior": 59.9497,
+          "limite_especificacion_superior": 60.0497
+        },
+        {
+          "intervalo": "100 V @ 40 Hz",
+          "valor_referencia": 79.99963,
+          "indicacion_promedio": 79.9963,
+          "sesgo_instrumental_unidades": -0.0033,
+          "sesgo_instrumental_porcentaje": -0.0041,
+          "incertidumbre": 0.0067,
+          "limite_especificacion_inferior": 79.9396,
+          "limite_especificacion_superior": 80.0596
+        },
+        {
+          "intervalo": "100 V @ 40 Hz",
+          "valor_referencia": 99.99956,
+          "indicacion_promedio": 99.9954,
+          "sesgo_instrumental_unidades": -0.0042,
+          "sesgo_instrumental_porcentaje": -0.0042,
+          "incertidumbre": 0.0065,
+          "limite_especificacion_inferior": 99.9296,
+          "limite_especificacion_superior": 100.0696
+        },
+        {
+          "intervalo": "750 V @ 40 Hz",
+          "valor_referencia": 99.9996,
+          "indicacion_promedio": 99.989,
+          "sesgo_instrumental_unidades": -0.01,
+          "sesgo_instrumental_porcentaje": -0.0104,
+          "incertidumbre": 0.0066,
+          "limite_especificacion_inferior": 99.8,
+          "limite_especificacion_superior": 100.2
+        },
+        {
+          "intervalo": "750 V @ 50 Hz",
+          "valor_referencia": 500.004,
+          "indicacion_promedio": 499.973,
+          "sesgo_instrumental_unidades": -0.031,
+          "sesgo_instrumental_porcentaje": -0.0062,
+          "incertidumbre": 0.0083,
+          "limite_especificacion_inferior": 499.604,
+          "limite_especificacion_superior": 500.404
+        },
+        {
+          "intervalo": "750 V @ 50 Hz",
+          "valor_referencia": 750.006,
+          "indicacion_promedio": 749.941,
+          "sesgo_instrumental_unidades": -0.065,
+          "sesgo_instrumental_porcentaje": -0.0086,
+          "incertidumbre": 0.0081,
+          "limite_especificacion_inferior": 749.481,
+          "limite_especificacion_superior": 750.531
+        },
+        {
+          "intervalo": "100 mV @ 60 Hz",
+          "valor_referencia": 10.0001,
+          "indicacion_promedio": 10.0,
+          "sesgo_instrumental_unidades": 0.0,
+          "sesgo_instrumental_porcentaje": -0.003,
+          "incertidumbre": 0.05,
+          "limite_especificacion_inferior": 9.975,
+          "limite_especificacion_superior": 10.025
+        },
+        {
+          "intervalo": "100 mV @ 60 Hz",
+          "valor_referencia": 99.9988,
+          "indicacion_promedio": 99.997,
+          "sesgo_instrumental_unidades": -0.002,
+          "sesgo_instrumental_porcentaje": -0.002,
+          "incertidumbre": 0.016,
+          "limite_especificacion_inferior": 99.929,
+          "limite_especificacion_superior": 100.069
+        },
+        {
+          "intervalo": "1 V @ 60 Hz",
+          "valor_referencia": 0.0999988,
+          "indicacion_promedio": 0.099982,
+          "sesgo_instrumental_unidades": -0.000017,
+          "sesgo_instrumental_porcentaje": -0.017,
+          "incertidumbre": 0.016,
+          "limite_especificacion_inferior": 0.099749,
+          "limite_especificacion_superior": 0.100249
+        },
+        {
+          "intervalo": "1 V @ 60 Hz",
+          "valor_referencia": 0.999998,
+          "indicacion_promedio": 0.999979,
+          "sesgo_instrumental_unidades": -0.000019,
+          "sesgo_instrumental_porcentaje": -0.0019,
+          "incertidumbre": 0.0055,
+          "limite_especificacion_inferior": 0.999298,
+          "limite_especificacion_superior": 1.000698
+        },
+        {
+          "intervalo": "10 V @ 60 Hz",
+          "valor_referencia": 0.999998,
+          "indicacion_promedio": 0.99989,
+          "sesgo_instrumental_unidades": -0.00011,
+          "sesgo_instrumental_porcentaje": -0.0106,
+          "incertidumbre": 0.0055,
+          "limite_especificacion_inferior": 0.9975,
+          "limite_especificacion_superior": 1.0025
+        },
+        {
+          "intervalo": "10 V @ 60 Hz",
+          "valor_referencia": 10.000097,
+          "indicacion_promedio": 9.99975,
+          "sesgo_instrumental_unidades": -0.00035,
+          "sesgo_instrumental_porcentaje": -0.0035,
+          "incertidumbre": 0.0052,
+          "limite_especificacion_inferior": 9.9931,
+          "limite_especificacion_superior": 10.0071
+        },
+        {
+          "intervalo": "100 V @ 60 Hz",
+          "valor_referencia": 10.0001,
+          "indicacion_promedio": 9.9984,
+          "sesgo_instrumental_unidades": -0.0017,
+          "sesgo_instrumental_porcentaje": -0.017,
+          "incertidumbre": 0.0053,
+          "limite_especificacion_inferior": 9.9751,
+          "limite_especificacion_superior": 10.0251
+        },
+        {
+          "intervalo": "100 V @ 60 Hz",
+          "valor_referencia": 20.00018,
+          "indicacion_promedio": 19.9984,
+          "sesgo_instrumental_unidades": -0.0018,
+          "sesgo_instrumental_porcentaje": -0.0089,
+          "incertidumbre": 0.005,
+          "limite_especificacion_inferior": 19.9702,
+          "limite_especificacion_superior": 20.0302
+        },
+        {
+          "intervalo": "100 V @ 60 Hz",
+          "valor_referencia": 39.99979,
+          "indicacion_promedio": 39.9978,
+          "sesgo_instrumental_unidades": -0.002,
+          "sesgo_instrumental_porcentaje": -0.0049,
+          "incertidumbre": 0.0073,
+          "limite_especificacion_inferior": 39.9598,
+          "limite_especificacion_superior": 40.0398
+        },
+        {
+          "intervalo": "100 V @ 60 Hz",
+          "valor_referencia": 59.9997,
+          "indicacion_promedio": 59.9968,
+          "sesgo_instrumental_unidades": -0.0029,
+          "sesgo_instrumental_porcentaje": -0.0048,
+          "incertidumbre": 0.0069,
+          "limite_especificacion_inferior": 59.9497,
+          "limite_especificacion_superior": 60.0497
+        },
+        {
+          "intervalo": "100 V @ 60 Hz",
+          "valor_referencia": 79.99963,
+          "indicacion_promedio": 79.9962,
+          "sesgo_instrumental_unidades": -0.0034,
+          "sesgo_instrumental_porcentaje": -0.0043,
+          "incertidumbre": 0.0067,
+          "limite_especificacion_inferior": 79.9396,
+          "limite_especificacion_superior": 80.0596
+        },
+        {
+          "intervalo": "100 V @ 60 Hz",
+          "valor_referencia": 99.99956,
+          "indicacion_promedio": 99.9951,
+          "sesgo_instrumental_unidades": -0.0045,
+          "sesgo_instrumental_porcentaje": -0.0045,
+          "incertidumbre": 0.0065,
+          "limite_especificacion_inferior": 99.9296,
+          "limite_especificacion_superior": 100.0696
+        },
+        {
+          "intervalo": "750 V @ 60 Hz",
+          "valor_referencia": 99.9996,
+          "indicacion_promedio": 99.989,
+          "sesgo_instrumental_unidades": -0.011,
+          "sesgo_instrumental_porcentaje": -0.0107,
+          "incertidumbre": 0.0066,
+          "limite_especificacion_inferior": 99.8,
+          "limite_especificacion_superior": 100.2
+        },
+        {
+          "intervalo": "750 V @ 60 Hz",
+          "valor_referencia": 500.004,
+          "indicacion_promedio": 499.971,
+          "sesgo_instrumental_unidades": -0.033,
+          "sesgo_instrumental_porcentaje": -0.0066,
+          "incertidumbre": 0.0083,
+          "limite_especificacion_inferior": 499.604,
+          "limite_especificacion_superior": 500.404
+        },
+        {
+          "intervalo": "750 V @ 60 Hz",
+          "valor_referencia": 750.006,
+          "indicacion_promedio": 749.939,
+          "sesgo_instrumental_unidades": -0.067,
+          "sesgo_instrumental_porcentaje": -0.009,
+          "incertidumbre": 0.0081,
+          "limite_especificacion_inferior": 749.481,
+          "limite_especificacion_superior": 750.531
+        }
+      ]
+    },
+    {
+      "titulo": "Tension AC",
+      "mesurando": "Tensión eléctrica alterna",
+      "unit": "mV, V, %L",
+      "ecuation_calibration": "",
+      "range": "100 mV @ 1 kHz - 750 V @ 100 kHz",
+      "columnas": [
+        {
+          "key": "intervalo",
+          "label": "Intervalo",
+          "unit": "",
+          "type": "string"
+        },
+        {
+          "key": "valor_referencia",
+          "label": "Patrón Valor de Referencia de la Magnitud",
+          "unit": "mV, V",
+          "type": "number"
+        },
+        {
+          "key": "indicacion_promedio",
+          "label": "Indicación Promedio",
+          "unit": "mV, V",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_unidades",
+          "label": "Sesgo Instrumental",
+          "unit": "mV, V",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_porcentaje",
+          "label": "Sesgo Instrumental",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "incertidumbre",
+          "label": "Incertidumbre Instrumental ¹",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_inferior",
+          "label": "Límites de Especificación (Inferior)",
+          "unit": "mV, V",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_superior",
+          "label": "Límites de Especificación (Superior)",
+          "unit": "mV, V",
+          "type": "number"
+        }
+      ],
+      "filas": [
+        {
+          "intervalo": "100 mV @ 1 kHz",
+          "valor_referencia": 10.0000,
+          "indicacion_promedio": 9.999,
+          "sesgo_instrumental_unidades": -0.001,
+          "sesgo_instrumental_porcentaje": -0.010,
+          "incertidumbre": 0.050,
+          "limite_especificacion_inferior": 9.975,
+          "limite_especificacion_superior": 10.025
+        },
+        {
+          "intervalo": "100 mV @ 1 kHz",
+          "valor_referencia": 99.9987,
+          "indicacion_promedio": 99.997,
+          "sesgo_instrumental_unidades": -0.002,
+          "sesgo_instrumental_porcentaje": -0.002,
+          "incertidumbre": 0.016,
+          "limite_especificacion_inferior": 99.929,
+          "limite_especificacion_superior": 100.069
+        },
+        {
+          "intervalo": "1 V @ 1 kHz",
+          "valor_referencia": 0.0999987,
+          "indicacion_promedio": 0.099983,
+          "sesgo_instrumental_unidades": -0.000016,
+          "sesgo_instrumental_porcentaje": -0.016,
+          "incertidumbre": 0.016,
+          "limite_especificacion_inferior": 0.099749,
+          "limite_especificacion_superior": 0.100249
+        },
+        {
+          "intervalo": "1 V @ 1 kHz",
+          "valor_referencia": 0.9999970,
+          "indicacion_promedio": 0.999991,
+          "sesgo_instrumental_unidades": -0.000006,
+          "sesgo_instrumental_porcentaje": -0.0006,
+          "incertidumbre": 0.0055,
+          "limite_especificacion_inferior": 0.999297,
+          "limite_especificacion_superior": 1.000697
+        },
+        {
+          "intervalo": "10 V @ 1 kHz",
+          "valor_referencia": 0.999997,
+          "indicacion_promedio": 0.99991,
+          "sesgo_instrumental_unidades": -0.00009,
+          "sesgo_instrumental_porcentaje": -0.0087,
+          "incertidumbre": 0.0055,
+          "limite_especificacion_inferior": 0.99750,
+          "limite_especificacion_superior": 1.00250
+        },
+        {
+          "intervalo": "10 V @ 1 kHz",
+          "valor_referencia": 10.000063,
+          "indicacion_promedio": 9.99991,
+          "sesgo_instrumental_unidades": -0.00016,
+          "sesgo_instrumental_porcentaje": -0.0016,
+          "incertidumbre": 0.0052,
+          "limite_especificacion_inferior": 9.99306,
+          "limite_especificacion_superior": 10.00706
+        },
+        {
+          "intervalo": "100 V @ 1 kHz",
+          "valor_referencia": 10.00006,
+          "indicacion_promedio": 9.9985,
+          "sesgo_instrumental_unidades": -0.0016,
+          "sesgo_instrumental_porcentaje": -0.0156,
+          "incertidumbre": 0.0053,
+          "limite_especificacion_inferior": 9.9751,
+          "limite_especificacion_superior": 10.0251
+        },
+        {
+          "intervalo": "100 V @ 1 kHz",
+          "valor_referencia": 20.00012,
+          "indicacion_promedio": 19.9985,
+          "sesgo_instrumental_unidades": -0.0017,
+          "sesgo_instrumental_porcentaje": -0.0083,
+          "incertidumbre": 0.0050,
+          "limite_especificacion_inferior": 19.9701,
+          "limite_especificacion_superior": 20.0301
+        },
+        {
+          "intervalo": "100 V @ 1 kHz",
+          "valor_referencia": 39.99989,
+          "indicacion_promedio": 39.9981,
+          "sesgo_instrumental_unidades": -0.0018,
+          "sesgo_instrumental_porcentaje": -0.0045,
+          "incertidumbre": 0.0073,
+          "limite_especificacion_inferior": 39.9599,
+          "limite_especificacion_superior": 40.0399
+        },
+        {
+          "intervalo": "100 V @ 1 kHz",
+          "valor_referencia": 59.99986,
+          "indicacion_promedio": 59.9972,
+          "sesgo_instrumental_unidades": -0.0026,
+          "sesgo_instrumental_porcentaje": -0.0044,
+          "incertidumbre": 0.0069,
+          "limite_especificacion_inferior": 59.9499,
+          "limite_especificacion_superior": 60.0499
+        },
+        {
+          "intervalo": "100 V @ 1 kHz",
+          "valor_referencia": 79.99985,
+          "indicacion_promedio": 79.9968,
+          "sesgo_instrumental_unidades": -0.0031,
+          "sesgo_instrumental_porcentaje": -0.0039,
+          "incertidumbre": 0.0067,
+          "limite_especificacion_inferior": 79.9399,
+          "limite_especificacion_superior": 80.0599
+        },
+        {
+          "intervalo": "100 V @ 1 kHz",
+          "valor_referencia": 99.99986,
+          "indicacion_promedio": 99.9956,
+          "sesgo_instrumental_unidades": -0.0043,
+          "sesgo_instrumental_porcentaje": -0.0043,
+          "incertidumbre": 0.0065,
+          "limite_especificacion_inferior": 99.9299,
+          "limite_especificacion_superior": 100.0699
+        },
+        {
+          "intervalo": "750 V @ 1 kHz",
+          "valor_referencia": 99.9999,
+          "indicacion_promedio": 99.990,
+          "sesgo_instrumental_unidades": -0.010,
+          "sesgo_instrumental_porcentaje": -0.0099,
+          "incertidumbre": 0.0066,
+          "limite_especificacion_inferior": 99.800,
+          "limite_especificacion_superior": 100.200
+        },
+        {
+          "intervalo": "750 V @ 1 kHz",
+          "valor_referencia": 500.0100,
+          "indicacion_promedio": 499.989,
+          "sesgo_instrumental_unidades": -0.021,
+          "sesgo_instrumental_porcentaje": -0.0043,
+          "incertidumbre": 0.0083,
+          "limite_especificacion_inferior": 499.610,
+          "limite_especificacion_superior": 500.410
+        },
+        {
+          "intervalo": "750 V @ 1 kHz",
+          "valor_referencia": 750.0150,
+          "indicacion_promedio": 749.973,
+          "sesgo_instrumental_unidades": -0.042,
+          "sesgo_instrumental_porcentaje": -0.0056,
+          "incertidumbre": 0.0081,
+          "limite_especificacion_inferior": 749.490,
+          "limite_especificacion_superior": 750.540
+        },
+        {
+          "intervalo": "100 mV @ 10 kHz",
+          "valor_referencia": 10.0000,
+          "indicacion_promedio": 10.001,
+          "sesgo_instrumental_unidades": 0.000,
+          "sesgo_instrumental_porcentaje": 0.005,
+          "incertidumbre": 0.050,
+          "limite_especificacion_inferior": 9.975,
+          "limite_especificacion_superior": 10.025
+        },
+        {
+          "intervalo": "100 mV @ 10 kHz",
+          "valor_referencia": 99.9987,
+          "indicacion_promedio": 100.001,
+          "sesgo_instrumental_unidades": 0.002,
+          "sesgo_instrumental_porcentaje": 0.002,
+          "incertidumbre": 0.016,
+          "limite_especificacion_inferior": 99.929,
+          "limite_especificacion_superior": 100.069
+        },
+        {
+          "intervalo": "100 mV @ 100 kHz",
+          "valor_referencia": 10.0004,
+          "indicacion_promedio": 10.009,
+          "sesgo_instrumental_unidades": 0.008,
+          "sesgo_instrumental_porcentaje": 0.08,
+          "incertidumbre": 0.10,
+          "limite_especificacion_inferior": 9.935,
+          "limite_especificacion_superior": 10.065
+        },
+        {
+          "intervalo": "100 mV @ 100 kHz",
+          "valor_referencia": 99.9976,
+          "indicacion_promedio": 100.080,
+          "sesgo_instrumental_unidades": 0.083,
+          "sesgo_instrumental_porcentaje": 0.083,
+          "incertidumbre": 0.064,
+          "limite_especificacion_inferior": 99.798,
+          "limite_especificacion_superior": 100.198
+        },
+        {
+          "intervalo": "1 V @ 100 kHz",
+          "valor_referencia": 0.0999976,
+          "indicacion_promedio": 0.100069,
+          "sesgo_instrumental_unidades": 0.000071,
+          "sesgo_instrumental_porcentaje": 0.071,
+          "incertidumbre": 0.064,
+          "limite_especificacion_inferior": 0.099348,
+          "limite_especificacion_superior": 0.100648
+        },
+        {
+          "intervalo": "1 V @ 100 kHz",
+          "valor_referencia": 0.9999760,
+          "indicacion_promedio": 1.000769,
+          "sesgo_instrumental_unidades": 0.000793,
+          "sesgo_instrumental_porcentaje": 0.079,
+          "incertidumbre": 0.015,
+          "limite_especificacion_inferior": 0.997976,
+          "limite_especificacion_superior": 1.001976
+        },
+        {
+          "intervalo": "10 V @ 100 kHz",
+          "valor_referencia": 0.999976,
+          "indicacion_promedio": 1.00064,
+          "sesgo_instrumental_unidades": 0.00066,
+          "sesgo_instrumental_porcentaje": 0.066,
+          "incertidumbre": 0.015,
+          "limite_especificacion_inferior": 0.99348,
+          "limite_especificacion_superior": 1.00648
+        },
+        {
+          "intervalo": "10 V @ 100 kHz",
+          "valor_referencia": 9.999766,
+          "indicacion_promedio": 10.00691,
+          "sesgo_instrumental_unidades": 0.00714,
+          "sesgo_instrumental_porcentaje": 0.071,
+          "incertidumbre": 0.013,
+          "limite_especificacion_inferior": 9.97977,
+          "limite_especificacion_superior": 10.01977
+        },
+        {
+          "intervalo": "100 V @ 100 kHz",
+          "valor_referencia": 9.99977,
+          "indicacion_promedio": 10.0079,
+          "sesgo_instrumental_unidades": 0.0081,
+          "sesgo_instrumental_porcentaje": 0.081,
+          "incertidumbre": 0.013,
+          "limite_especificacion_inferior": 9.9348,
+          "limite_especificacion_superior": 10.0648
+        },
+        {
+          "intervalo": "100 V @ 100 kHz",
+          "valor_referencia": 19.99944,
+          "indicacion_promedio": 20.0164,
+          "sesgo_instrumental_unidades": 0.0169,
+          "sesgo_instrumental_porcentaje": 0.085,
+          "incertidumbre": 0.012,
+          "limite_especificacion_inferior": 19.9194,
+          "limite_especificacion_superior": 20.0794
+        },
+        {
+          "intervalo": "100 V @ 100 kHz",
+          "valor_referencia": 39.99560,
+          "indicacion_promedio": 40.0342,
+          "sesgo_instrumental_unidades": 0.0386,
+          "sesgo_instrumental_porcentaje": 0.097,
+          "incertidumbre": 0.021,
+          "limite_especificacion_inferior": 39.8856,
+          "limite_especificacion_superior": 40.1056
+        },
+        {
+          "intervalo": "100 V @ 100 kHz",
+          "valor_referencia": 59.99340,
+          "indicacion_promedio": 60.0527,
+          "sesgo_instrumental_unidades": 0.0592,
+          "sesgo_instrumental_porcentaje": 0.099,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 59.8534,
+          "limite_especificacion_superior": 60.1334
+        },
+        {
+          "intervalo": "100 V @ 100 kHz",
+          "valor_referencia": 79.99120,
+          "indicacion_promedio": 80.0643,
+          "sesgo_instrumental_unidades": 0.0731,
+          "sesgo_instrumental_porcentaje": 0.091,
+          "incertidumbre": 0.018,
+          "limite_especificacion_inferior": 79.8212,
+          "limite_especificacion_superior": 80.1612
+        },
+        {
+          "intervalo": "100 V @ 100 kHz",
+          "valor_referencia": 99.98900,
+          "indicacion_promedio": 100.0778,
+          "sesgo_instrumental_unidades": 0.0888,
+          "sesgo_instrumental_porcentaje": 0.089,
+          "incertidumbre": 0.018,
+          "limite_especificacion_inferior": 99.7890,
+          "limite_especificacion_superior": 100.1890
+        },
+        {
+          "intervalo": "750 V @ 100 kHz",
+          "valor_referencia": 99.9890,
+          "indicacion_promedio": 100.078,
+          "sesgo_instrumental_unidades": 0.089,
+          "sesgo_instrumental_porcentaje": 0.089,
+          "incertidumbre": 0.018,
+          "limite_especificacion_inferior": 99.464,
+          "limite_especificacion_superior": 100.514
+        }
+      ]
+    },
+    {
+      "titulo": "Resistencia",
+      "mesurando": "Resistencia eléctrica",
+      "unit": "Ω, kΩ, MΩ, %L",
+      "ecuation_calibration": "",
+      "range": "100 Ohm - 100 MOhm",
+      "columnas": [
+        {
+          "key": "intervalo",
+          "label": "Intervalo",
+          "unit": "",
+          "type": "string"
+        },
+        {
+          "key": "valor_referencia",
+          "label": "Patrón Valor de Referencia de la Magnitud",
+          "unit": "Ω, kΩ, MΩ",
+          "type": "number"
+        },
+        {
+          "key": "indicacion_promedio",
+          "label": "Indicación Promedio",
+          "unit": "Ω, kΩ, MΩ",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_unidades",
+          "label": "Sesgo Instrumental",
+          "unit": "Ω, kΩ, MΩ",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_porcentaje",
+          "label": "Sesgo Instrumental",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "incertidumbre",
+          "label": "Incertidumbre Instrumental ¹",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_inferior",
+          "label": "Límites de Especificación (Inferior)",
+          "unit": "Ω, kΩ, MΩ",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_superior",
+          "label": "Límites de Especificación (Superior)",
+          "unit": "Ω, kΩ, MΩ",
+          "type": "number"
+        }
+      ],
+      "filas": [
+        {
+          "intervalo": "100 Ohm",
+          "valor_referencia": 1.00002,
+          "indicacion_promedio": 1.0011,
+          "sesgo_instrumental_unidades": 0.0011,
+          "sesgo_instrumental_porcentaje": 0.105,
+          "incertidumbre": 0.012,
+          "limite_especificacion_inferior": 0.9960,
+          "limite_especificacion_superior": 1.0041
+        },
+        {
+          "intervalo": "100 Ohm",
+          "valor_referencia": 10.00021,
+          "indicacion_promedio": 10.0008,
+          "sesgo_instrumental_unidades": 0.0006,
+          "sesgo_instrumental_porcentaje": 0.0059,
+          "incertidumbre": 0.0024,
+          "limite_especificacion_inferior": 9.9956,
+          "limite_especificacion_superior": 10.0048
+        },
+        {
+          "intervalo": "100 Ohm",
+          "valor_referencia": 99.99737,
+          "indicacion_promedio": 99.9985,
+          "sesgo_instrumental_unidades": 0.0011,
+          "sesgo_instrumental_porcentaje": 0.0011,
+          "incertidumbre": 0.0010,
+          "limite_especificacion_inferior": 99.9874,
+          "limite_especificacion_superior": 100.0074
+        },
+        {
+          "intervalo": "1 kOhm",
+          "valor_referencia": 0.0999974,
+          "indicacion_promedio": 0.100000,
+          "sesgo_instrumental_unidades": 0.000003,
+          "sesgo_instrumental_porcentaje": 0.0026,
+          "incertidumbre": 0.0012,
+          "limite_especificacion_inferior": 0.099988,
+          "limite_especificacion_superior": 0.100006
+        },
+        {
+          "intervalo": "1 kOhm",
+          "valor_referencia": 1.0000002,
+          "indicacion_promedio": 1.000016,
+          "sesgo_instrumental_unidades": 0.000016,
+          "sesgo_instrumental_porcentaje": 0.00158,
+          "incertidumbre": 0.00091,
+          "limite_especificacion_inferior": 0.999955,
+          "limite_especificacion_superior": 1.000045
+        },
+        {
+          "intervalo": "10 kOhm",
+          "valor_referencia": 1.000000,
+          "indicacion_promedio": 1.00002,
+          "sesgo_instrumental_unidades": 0.00002,
+          "sesgo_instrumental_porcentaje": 0.0020,
+          "incertidumbre": 0.0011,
+          "limite_especificacion_inferior": 0.99991,
+          "limite_especificacion_superior": 1.00009
+        },
+        {
+          "intervalo": "10 kOhm",
+          "valor_referencia": 9.999828,
+          "indicacion_promedio": 9.99990,
+          "sesgo_instrumental_unidades": 0.00007,
+          "sesgo_instrumental_porcentaje": 0.00072,
+          "incertidumbre": 0.00088,
+          "limite_especificacion_inferior": 9.99938,
+          "limite_especificacion_superior": 10.00028
+        },
+        {
+          "intervalo": "100 kOhm",
+          "valor_referencia": 9.99983,
+          "indicacion_promedio": 9.9999,
+          "sesgo_instrumental_unidades": 0.0001,
+          "sesgo_instrumental_porcentaje": 0.0007,
+          "incertidumbre": 0.0010,
+          "limite_especificacion_inferior": 9.9989,
+          "limite_especificacion_superior": 10.0007
+        },
+        {
+          "intervalo": "100 kOhm",
+          "valor_referencia": 99.99901,
+          "indicacion_promedio": 99.9984,
+          "sesgo_instrumental_unidades": -0.0006,
+          "sesgo_instrumental_porcentaje": -0.0006,
+          "incertidumbre": 0.0012,
+          "limite_especificacion_inferior": 99.9945,
+          "limite_especificacion_superior": 100.0035
+        },
+        {
+          "intervalo": "1 MOhm",
+          "valor_referencia": 0.0999990,
+          "indicacion_promedio": 0.100000,
+          "sesgo_instrumental_unidades": 0.000001,
+          "sesgo_instrumental_porcentaje": 0.0007,
+          "incertidumbre": 0.0014,
+          "limite_especificacion_inferior": 0.099987,
+          "limite_especificacion_superior": 0.100011
+        },
+        {
+          "intervalo": "1 MOhm",
+          "valor_referencia": 0.9999677,
+          "indicacion_promedio": 0.999974,
+          "sesgo_instrumental_unidades": 0.000006,
+          "sesgo_instrumental_porcentaje": 0.0006,
+          "incertidumbre": 0.0022,
+          "limite_especificacion_inferior": 0.999893,
+          "limite_especificacion_superior": 1.000043
+        },
+        {
+          "intervalo": "10 MOhm",
+          "valor_referencia": 0.999968,
+          "indicacion_promedio": 1.00000,
+          "sesgo_instrumental_unidades": 0.00003,
+          "sesgo_instrumental_porcentaje": 0.0032,
+          "incertidumbre": 0.0022,
+          "limite_especificacion_inferior": 0.99962,
+          "limite_especificacion_superior": 1.00032
+        },
+        {
+          "intervalo": "10 MOhm",
+          "valor_referencia": 9.999387,
+          "indicacion_promedio": 9.99960,
+          "sesgo_instrumental_unidades": 0.00021,
+          "sesgo_instrumental_porcentaje": 0.0021,
+          "incertidumbre": 0.0046,
+          "limite_especificacion_inferior": 9.99679,
+          "limite_especificacion_superior": 10.00199
+        },
+        {
+          "intervalo": "100 MOhm",
+          "valor_referencia": 9.99939,
+          "indicacion_promedio": 10.0004,
+          "sesgo_instrumental_unidades": 0.0010,
+          "sesgo_instrumental_porcentaje": 0.0101,
+          "incertidumbre": 0.0046,
+          "limite_especificacion_inferior": 9.9684,
+          "limite_especificacion_superior": 10.0304
+        },
+        {
+          "intervalo": "100 MOhm",
+          "valor_referencia": 100.00445,
+          "indicacion_promedio": 100.0832,
+          "sesgo_instrumental_unidades": 0.0787,
+          "sesgo_instrumental_porcentaje": 0.079,
+          "incertidumbre": 0.011,
+          "limite_especificacion_inferior": 99.5034,
+          "limite_especificacion_superior": 100.5055
+        }
+      ]
+    },
+    {
+      "titulo": "Corrinente DC",
+      "mesurando": "Corriente eléctrica continua",
+      "unit": "μA, mA, A, %L",
+      "ecuation_calibration": "",
+      "range": "100 μA - 10 A",
+      "columnas": [
+        {
+          "key": "intervalo",
+          "label": "Intervalo",
+          "unit": "",
+          "type": "string"
+        },
+        {
+          "key": "valor_referencia",
+          "label": "Patrón Valor de Referencia de la Magnitud",
+          "unit": "μA, mA, A",
+          "type": "number"
+        },
+        {
+          "key": "indicacion_promedio",
+          "label": "Indicación Promedio",
+          "unit": "μA, mA, A",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_unidades",
+          "label": "Sesgo Instrumental",
+          "unit": "μA, mA, A",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_porcentaje",
+          "label": "Sesgo Instrumental",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "incertidumbre",
+          "label": "Incertidumbre Instrumental ¹",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_inferior",
+          "label": "Límites de Especificación (Inferior)",
+          "unit": "μA, mA, A",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_superior",
+          "label": "Límites de Especificación (Superior)",
+          "unit": "μA, mA, A",
+          "type": "number"
+        }
+      ],
+      "filas": [
+        {
+          "intervalo": "100 μA",
+          "valor_referencia": 22.00017,
+          "indicacion_promedio": 22.0006,
+          "sesgo_instrumental_unidades": 0.0004,
+          "sesgo_instrumental_porcentaje": 0.002,
+          "incertidumbre": 0.031,
+          "limite_especificacion_inferior": 21.9882,
+          "limite_especificacion_superior": 22.0122
+        },
+        {
+          "intervalo": "100 μA",
+          "valor_referencia": 100.00079,
+          "indicacion_promedio": 100.0023,
+          "sesgo_instrumental_unidades": 0.0015,
+          "sesgo_instrumental_porcentaje": 0.002,
+          "incertidumbre": 0.010,
+          "limite_especificacion_inferior": 99.9498,
+          "limite_especificacion_superior": 100.0518
+        },
+        {
+          "intervalo": "1 mA",
+          "valor_referencia": 0.1000008,
+          "indicacion_promedio": 0.099999,
+          "sesgo_instrumental_unidades": -0.000002,
+          "sesgo_instrumental_porcentaje": -0.002,
+          "incertidumbre": 0.010,
+          "limite_especificacion_inferior": 0.099901,
+          "limite_especificacion_superior": 0.100101
+        },
+        {
+          "intervalo": "1 mA",
+          "valor_referencia": 0.9999842,
+          "indicacion_promedio": 0.999980,
+          "sesgo_instrumental_unidades": -0.000004,
+          "sesgo_instrumental_porcentaje": -0.0004,
+          "incertidumbre": 0.0042,
+          "limite_especificacion_inferior": 0.999434,
+          "limite_especificacion_superior": 1.000534
+        },
+        {
+          "intervalo": "10 mA",
+          "valor_referencia": 0.999984,
+          "indicacion_promedio": 1.00009,
+          "sesgo_instrumental_unidades": 0.00011,
+          "sesgo_instrumental_porcentaje": 0.0109,
+          "incertidumbre": 0.0045,
+          "limite_especificacion_inferior": 0.99748,
+          "limite_especificacion_superior": 1.00248
+        },
+        {
+          "intervalo": "10 mA",
+          "valor_referencia": 9.999846,
+          "indicacion_promedio": 10.00175,
+          "sesgo_instrumental_unidades": 0.00190,
+          "sesgo_instrumental_porcentaje": 0.0190,
+          "incertidumbre": 0.0039,
+          "limite_especificacion_inferior": 9.99285,
+          "limite_especificacion_superior": 10.00685
+        },
+        {
+          "intervalo": "100 mA",
+          "valor_referencia": 9.99985,
+          "indicacion_promedio": 10.0018,
+          "sesgo_instrumental_unidades": 0.0019,
+          "sesgo_instrumental_porcentaje": 0.0190,
+          "incertidumbre": 0.0040,
+          "limite_especificacion_inferior": 9.9898,
+          "limite_especificacion_superior": 10.0098
+        },
+        {
+          "intervalo": "100 mA",
+          "valor_referencia": 99.99965,
+          "indicacion_promedio": 100.0188,
+          "sesgo_instrumental_unidades": 0.0192,
+          "sesgo_instrumental_porcentaje": 0.0192,
+          "incertidumbre": 0.0052,
+          "limite_especificacion_inferior": 99.9447,
+          "limite_especificacion_superior": 100.0546
+        },
+        {
+          "intervalo": "1 A",
+          "valor_referencia": 0.0999997,
+          "indicacion_promedio": 0.100188,
+          "sesgo_instrumental_unidades": 0.000188,
+          "sesgo_instrumental_porcentaje": 0.1880,
+          "incertidumbre": 0.0053,
+          "limite_especificacion_inferior": 0.099820,
+          "limite_especificacion_superior": 0.100180
+        },
+        {
+          "intervalo": "1 A",
+          "valor_referencia": 0.9999878,
+          "indicacion_promedio": 1.001895,
+          "sesgo_instrumental_unidades": 0.001907,
+          "sesgo_instrumental_porcentaje": 0.1907,
+          "incertidumbre": 0.0093,
+          "limite_especificacion_inferior": 0.999088,
+          "limite_especificacion_superior": 1.000888
+        },
+        {
+          "intervalo": "3 A",
+          "valor_referencia": 0.9999878,
+          "indicacion_promedio": 1.001975,
+          "sesgo_instrumental_unidades": 0.001987,
+          "sesgo_instrumental_porcentaje": 0.1987,
+          "incertidumbre": 0.0093,
+          "limite_especificacion_inferior": 0.997388,
+          "limite_especificacion_superior": 1.002588
+        },
+        {
+          "intervalo": "3 A",
+          "valor_referencia": 2.9996010,
+          "indicacion_promedio": 3.003624,
+          "sesgo_instrumental_unidades": 0.004023,
+          "sesgo_instrumental_porcentaje": 0.134,
+          "incertidumbre": 0.052,
+          "limite_especificacion_inferior": 2.993002,
+          "limite_especificacion_superior": 3.006200
+        },
+        {
+          "intervalo": "10 A",
+          "valor_referencia": 2.999601,
+          "indicacion_promedio": 2.99889,
+          "sesgo_instrumental_unidades": -0.00071,
+          "sesgo_instrumental_porcentaje": -0.024,
+          "incertidumbre": 0.052,
+          "limite_especificacion_inferior": 2.99500,
+          "limite_especificacion_superior": 3.00420
+        },
+        {
+          "intervalo": "10 A",
+          "valor_referencia": 9.998700,
+          "indicacion_promedio": 10.00503,
+          "sesgo_instrumental_unidades": 0.00633,
+          "sesgo_instrumental_porcentaje": 0.063,
+          "incertidumbre": 0.043,
+          "limite_especificacion_inferior": 9.97570,
+          "limite_especificacion_superior": 10.02170
+        }
+      ]
+    },
+    {
+        "titulo": "Corrinte AC",
+      "mesurando": "Corriente eléctrica alterna",
+      "unit": "mA, A, %L",
+      "ecuation_calibration": "",
+      "range": "1 mA @ 40 Hz - 10 A @ 60 Hz",
+      "columnas": [
+        {
+          "key": "intervalo",
+          "label": "Intervalo",
+          "unit": "",
+          "type": "string"
+        },
+        {
+          "key": "valor_referencia",
+          "label": "Patrón Valor de Referencia de la Magnitud",
+          "unit": "mA, A",
+          "type": "number"
+        },
+        {
+          "key": "indicacion_promedio",
+          "label": "Indicación Promedio",
+          "unit": "mA, A",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_unidades",
+          "label": "Sesgo Instrumental",
+          "unit": "mA, A",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_porcentaje",
+          "label": "Sesgo Instrumental",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "incertidumbre",
+          "label": "Incertidumbre Instrumental ¹",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_inferior",
+          "label": "Límites de Especificación (Inferior)",
+          "unit": "mA, A",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_superior",
+          "label": "Límites de Especificación (Superior)",
+          "unit": "mA, A",
+          "type": "number"
+        }
+      ],
+      "filas": [
+        {
+          "intervalo": "1 mA @ 40 Hz",
+          "valor_referencia": 0.0999973,
+          "indicacion_promedio": 0.099967,
+          "sesgo_instrumental_unidades": -0.000030,
+          "sesgo_instrumental_porcentaje": -0.030,
+          "incertidumbre": 0.049,
+          "limite_especificacion_inferior": 0.099497,
+          "limite_especificacion_superior": 0.100497
+        },
+        {
+          "intervalo": "1 mA @ 40 Hz",
+          "valor_referencia": 0.9999930,
+          "indicacion_promedio": 0.999929,
+          "sesgo_instrumental_unidades": -0.000064,
+          "sesgo_instrumental_porcentaje": -0.006,
+          "incertidumbre": 0.018,
+          "limite_especificacion_inferior": 0.998593,
+          "limite_especificacion_superior": 1.001393
+        },
+        {
+          "intervalo": "10 mA @ 40 Hz",
+          "valor_referencia": 3.999988,
+          "indicacion_promedio": 4.00096,
+          "sesgo_instrumental_unidades": 0.00097,
+          "sesgo_instrumental_porcentaje": 0.024,
+          "incertidumbre": 0.024,
+          "limite_especificacion_inferior": 3.99199,
+          "limite_especificacion_superior": 4.00799
+        },
+        {
+          "intervalo": "10 mA @ 40 Hz",
+          "valor_referencia": 9.999970,
+          "indicacion_promedio": 10.00250,
+          "sesgo_instrumental_unidades": 0.00252,
+          "sesgo_instrumental_porcentaje": 0.025,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 9.98597,
+          "limite_especificacion_superior": 10.01397
+        },
+        {
+          "intervalo": "100 mA @ 40 Hz",
+          "valor_referencia": 9.99997,
+          "indicacion_promedio": 10.0002,
+          "sesgo_instrumental_unidades": 0.0002,
+          "sesgo_instrumental_porcentaje": 0.002,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 9.9500,
+          "limite_especificacion_superior": 10.0500
+        },
+        {
+          "intervalo": "100 mA @ 40 Hz",
+          "valor_referencia": 100.00070,
+          "indicacion_promedio": 100.0139,
+          "sesgo_instrumental_unidades": 0.0131,
+          "sesgo_instrumental_porcentaje": 0.013,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 99.8607,
+          "limite_especificacion_superior": 100.1407
+        },
+        {
+          "intervalo": "1 A @ 40 Hz",
+          "valor_referencia": 0.1000007,
+          "indicacion_promedio": 0.100150,
+          "sesgo_instrumental_unidades": 0.000149,
+          "sesgo_instrumental_porcentaje": 0.149,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 0.099501,
+          "limite_especificacion_superior": 0.100501
+        },
+        {
+          "intervalo": "1 A @ 40 Hz",
+          "valor_referencia": 0.2000014,
+          "indicacion_promedio": 0.200346,
+          "sesgo_instrumental_unidades": 0.000344,
+          "sesgo_instrumental_porcentaje": 0.172,
+          "incertidumbre": 0.017,
+          "limite_especificacion_inferior": 0.199401,
+          "limite_especificacion_superior": 0.200601
+        },
+        {
+          "intervalo": "1 A @ 40 Hz",
+          "valor_referencia": 0.5000045,
+          "indicacion_promedio": 0.500914,
+          "sesgo_instrumental_unidades": 0.000910,
+          "sesgo_instrumental_porcentaje": 0.182,
+          "incertidumbre": 0.072,
+          "limite_especificacion_inferior": 0.499104,
+          "limite_especificacion_superior": 0.500905
+        },
+        {
+          "intervalo": "1 A @ 40 Hz",
+          "valor_referencia": 1.0000090,
+          "indicacion_promedio": 1.001836,
+          "sesgo_instrumental_unidades": 0.001827,
+          "sesgo_instrumental_porcentaje": 0.183,
+          "incertidumbre": 0.069,
+          "limite_especificacion_inferior": 0.998609,
+          "limite_especificacion_superior": 1.001409
+        },
+        {
+          "intervalo": "3 A @ 40 Hz",
+          "valor_referencia": 1.0000090,
+          "indicacion_promedio": 1.001833,
+          "sesgo_instrumental_unidades": 0.001824,
+          "sesgo_instrumental_porcentaje": 0.182,
+          "incertidumbre": 0.069,
+          "limite_especificacion_inferior": 0.996509,
+          "limite_especificacion_superior": 1.003509
+        },
+        {
+          "intervalo": "3 A @ 50 Hz",
+          "valor_referencia": 2.9997960,
+          "indicacion_promedio": 3.003745,
+          "sesgo_instrumental_unidades": 0.003949,
+          "sesgo_instrumental_porcentaje": 0.13,
+          "incertidumbre": 0.10,
+          "limite_especificacion_inferior": 2.991696,
+          "limite_especificacion_superior": 3.007896
+        },
+        {
+          "intervalo": "10 A @ 50 Hz",
+          "valor_referencia": 2.999796,
+          "indicacion_promedio": 2.99907,
+          "sesgo_instrumental_unidades": -0.00072,
+          "sesgo_instrumental_porcentaje": -0.02,
+          "incertidumbre": 0.10,
+          "limite_especificacion_inferior": 2.99130,
+          "limite_especificacion_superior": 3.00830
+        },
+        {
+          "intervalo": "10 A @ 50 Hz",
+          "valor_referencia": 9.998900,
+          "indicacion_promedio": 10.00590,
+          "sesgo_instrumental_unidades": 0.00700,
+          "sesgo_instrumental_porcentaje": 0.070,
+          "incertidumbre": 0.071,
+          "limite_especificacion_inferior": 9.96990,
+          "limite_especificacion_superior": 10.02790
+        },
+        {
+          "intervalo": "1 mA @ 60 Hz",
+          "valor_referencia": 0.0999973,
+          "indicacion_promedio": 0.099971,
+          "sesgo_instrumental_unidades": -0.000026,
+          "sesgo_instrumental_porcentaje": -0.026,
+          "incertidumbre": 0.049,
+          "limite_especificacion_inferior": 0.099497,
+          "limite_especificacion_superior": 0.100497
+        },
+        {
+          "intervalo": "1 mA @ 60 Hz",
+          "valor_referencia": 0.9999930,
+          "indicacion_promedio": 0.999935,
+          "sesgo_instrumental_unidades": -0.000058,
+          "sesgo_instrumental_porcentaje": -0.006,
+          "incertidumbre": 0.018,
+          "limite_especificacion_inferior": 0.998593,
+          "limite_especificacion_superior": 1.001393
+        },
+        {
+          "intervalo": "10 mA @ 60 Hz",
+          "valor_referencia": 3.999988,
+          "indicacion_promedio": 4.00065,
+          "sesgo_instrumental_unidades": 0.00066,
+          "sesgo_instrumental_porcentaje": 0.016,
+          "incertidumbre": 0.024,
+          "limite_especificacion_inferior": 3.99199,
+          "limite_especificacion_superior": 4.00799
+        },
+        {
+          "intervalo": "10 mA @ 60 Hz",
+          "valor_referencia": 9.999970,
+          "indicacion_promedio": 10.00214,
+          "sesgo_instrumental_unidades": 0.00217,
+          "sesgo_instrumental_porcentaje": 0.022,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 9.98597,
+          "limite_especificacion_superior": 10.01397
+        },
+        {
+          "intervalo": "100 mA @ 60 Hz",
+          "valor_referencia": 9.99997,
+          "indicacion_promedio": 10.0000,
+          "sesgo_instrumental_unidades": 0.0000,
+          "sesgo_instrumental_porcentaje": 0.000,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 9.9500,
+          "limite_especificacion_superior": 10.0500
+        },
+        {
+          "intervalo": "100 mA @ 60 Hz",
+          "valor_referencia": 100.00070,
+          "indicacion_promedio": 100.0137,
+          "sesgo_instrumental_unidades": 0.0130,
+          "sesgo_instrumental_porcentaje": 0.013,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 99.8607,
+          "limite_especificacion_superior": 100.1407
+        },
+        {
+          "intervalo": "1 A @ 60 Hz",
+          "valor_referencia": 0.1000007,
+          "indicacion_promedio": 0.100146,
+          "sesgo_instrumental_unidades": 0.000145,
+          "sesgo_instrumental_porcentaje": 0.145,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 0.099501,
+          "limite_especificacion_superior": 0.100501
+        },
+        {
+          "intervalo": "1 A @ 60 Hz",
+          "valor_referencia": 0.2000014,
+          "indicacion_promedio": 0.200342,
+          "sesgo_instrumental_unidades": 0.000341,
+          "sesgo_instrumental_porcentaje": 0.170,
+          "incertidumbre": 0.017,
+          "limite_especificacion_inferior": 0.199401,
+          "limite_especificacion_superior": 0.200601
+        },
+        {
+          "intervalo": "1 A @ 60 Hz",
+          "valor_referencia": 0.5000045,
+          "indicacion_promedio": 0.500908,
+          "sesgo_instrumental_unidades": 0.000903,
+          "sesgo_instrumental_porcentaje": 0.181,
+          "incertidumbre": 0.072,
+          "limite_especificacion_inferior": 0.499104,
+          "limite_especificacion_superior": 0.500905
+        },
+        {
+          "intervalo": "1 A @ 60 Hz",
+          "valor_referencia": 1.0000090,
+          "indicacion_promedio": 1.001843,
+          "sesgo_instrumental_unidades": 0.001834,
+          "sesgo_instrumental_porcentaje": 0.183,
+          "incertidumbre": 0.069,
+          "limite_especificacion_inferior": 0.998609,
+          "limite_especificacion_superior": 1.001409
+        },
+        {
+          "intervalo": "3 A @ 60 Hz",
+          "valor_referencia": 1.0000090,
+          "indicacion_promedio": 1.001840,
+          "sesgo_instrumental_unidades": 0.001831,
+          "sesgo_instrumental_porcentaje": 0.183,
+          "incertidumbre": 0.069,
+          "limite_especificacion_inferior": 0.996509,
+          "limite_especificacion_superior": 1.003509
+        },
+        {
+          "intervalo": "3 A @ 60 Hz",
+          "valor_referencia": 2.9997960,
+          "indicacion_promedio": 3.003624,
+          "sesgo_instrumental_unidades": 0.003828,
+          "sesgo_instrumental_porcentaje": 0.13,
+          "incertidumbre": 0.10,
+          "limite_especificacion_inferior": 2.991696,
+          "limite_especificacion_superior": 3.007896
+        },
+        {
+          "intervalo": "10 A @ 60 Hz",
+          "valor_referencia": 2.999796,
+          "indicacion_promedio": 2.99908,
+          "sesgo_instrumental_unidades": -0.00071,
+          "sesgo_instrumental_porcentaje": -0.02,
+          "incertidumbre": 0.10,
+          "limite_especificacion_inferior": 2.99130,
+          "limite_especificacion_superior": 3.00830
+        },
+        {
+          "intervalo": "10 A @ 60 Hz",
+          "valor_referencia": 9.998900,
+          "indicacion_promedio": 10.00600,
+          "sesgo_instrumental_unidades": 0.00710,
+          "sesgo_instrumental_porcentaje": 0.071,
+          "incertidumbre": 0.071,
+          "limite_especificacion_inferior": 9.96990,
+          "limite_especificacion_superior": 10.02790
+        }
+      ]
+    },
+    {
+      "titulo": "Corriente AC",
+      "mesurando": "Corriente eléctrica alterna",
+      "unit": "mA, A, %L",
+      "ecuation_calibration": "",
+      "range": "1 mA @ 1 kHz - 10 A @ 1 kHz",
+      "columnas": [
+        {
+          "key": "intervalo",
+          "label": "Intervalo",
+          "unit": "",
+          "type": "string"
+        },
+        {
+          "key": "valor_referencia",
+          "label": "Patrón Valor de Referencia de la Magnitud",
+          "unit": "mA, A",
+          "type": "number"
+        },
+        {
+          "key": "indicacion_promedio",
+          "label": "Indicación Promedio",
+          "unit": "mA, A",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_unidades",
+          "label": "Sesgo Instrumental",
+          "unit": "mA, A",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_porcentaje",
+          "label": "Sesgo Instrumental",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "incertidumbre",
+          "label": "Incertidumbre Instrumental ¹",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_inferior",
+          "label": "Límites de Especificación (Inferior)",
+          "unit": "mA, A",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_superior",
+          "label": "Límites de Especificación (Superior)",
+          "unit": "mA, A",
+          "type": "number"
+        }
+      ],
+      "filas": [
+        {
+          "intervalo": "1 mA @ 1 kHz",
+          "valor_referencia": 0.0999987,
+          "indicacion_promedio": 0.099961,
+          "sesgo_instrumental_unidades": -0.000038,
+          "sesgo_instrumental_porcentaje": -0.038,
+          "incertidumbre": 0.049,
+          "limite_especificacion_inferior": 0.099499,
+          "limite_especificacion_superior": 0.100499
+        },
+        {
+          "intervalo": "1 mA @ 1 kHz",
+          "valor_referencia": 0.9999930,
+          "indicacion_promedio": 0.999974,
+          "sesgo_instrumental_unidades": -0.000019,
+          "sesgo_instrumental_porcentaje": -0.002,
+          "incertidumbre": 0.018,
+          "limite_especificacion_inferior": 0.998593,
+          "limite_especificacion_superior": 1.001393
+        },
+        {
+          "intervalo": "10 mA @ 1 kHz",
+          "valor_referencia": 3.999932,
+          "indicacion_promedio": 4.00075,
+          "sesgo_instrumental_unidades": 0.00082,
+          "sesgo_instrumental_porcentaje": 0.020,
+          "incertidumbre": 0.024,
+          "limite_especificacion_inferior": 3.99193,
+          "limite_especificacion_superior": 4.00793
+        },
+        {
+          "intervalo": "10 mA @ 1 kHz",
+          "valor_referencia": 9.999830,
+          "indicacion_promedio": 10.00192,
+          "sesgo_instrumental_unidades": 0.00209,
+          "sesgo_instrumental_porcentaje": 0.021,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 9.98583,
+          "limite_especificacion_superior": 10.01383
+        },
+        {
+          "intervalo": "100 mA @ 1 kHz",
+          "valor_referencia": 9.99983,
+          "indicacion_promedio": 9.9994,
+          "sesgo_instrumental_unidades": -0.0004,
+          "sesgo_instrumental_porcentaje": -0.004,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 9.9498,
+          "limite_especificacion_superior": 10.0498
+        },
+        {
+          "intervalo": "100 mA @ 1 kHz",
+          "valor_referencia": 99.99870,
+          "indicacion_promedio": 100.0179,
+          "sesgo_instrumental_unidades": 0.0192,
+          "sesgo_instrumental_porcentaje": 0.019,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 99.8587,
+          "limite_especificacion_superior": 100.1387
+        },
+        {
+          "intervalo": "1 A @ 1 kHz",
+          "valor_referencia": 0.0999987,
+          "indicacion_promedio": 0.100145,
+          "sesgo_instrumental_unidades": 0.000146,
+          "sesgo_instrumental_porcentaje": 0.146,
+          "incertidumbre": 0.019,
+          "limite_especificacion_inferior": 0.099499,
+          "limite_especificacion_superior": 0.100499
+        },
+        {
+          "intervalo": "1 A @ 1 kHz",
+          "valor_referencia": 0.1999974,
+          "indicacion_promedio": 0.200331,
+          "sesgo_instrumental_unidades": 0.000333,
+          "sesgo_instrumental_porcentaje": 0.167,
+          "incertidumbre": 0.017,
+          "limite_especificacion_inferior": 0.199397,
+          "limite_especificacion_superior": 0.200597
+        },
+        {
+          "intervalo": "1 A @ 1 kHz",
+          "valor_referencia": 0.4999935,
+          "indicacion_promedio": 0.500890,
+          "sesgo_instrumental_unidades": 0.000897,
+          "sesgo_instrumental_porcentaje": 0.179,
+          "incertidumbre": 0.072,
+          "limite_especificacion_inferior": 0.499094,
+          "limite_especificacion_superior": 0.500893
+        },
+        {
+          "intervalo": "1 A @ 1 kHz",
+          "valor_referencia": 0.9999870,
+          "indicacion_promedio": 1.001881,
+          "sesgo_instrumental_unidades": 0.001894,
+          "sesgo_instrumental_porcentaje": 0.189,
+          "incertidumbre": 0.069,
+          "limite_especificacion_inferior": 0.998587,
+          "limite_especificacion_superior": 1.001387
+        },
+        {
+          "intervalo": "3 A @ 1 kHz",
+          "valor_referencia": 0.9999870,
+          "indicacion_promedio": 1.001880,
+          "sesgo_instrumental_unidades": 0.001893,
+          "sesgo_instrumental_porcentaje": 0.189,
+          "incertidumbre": 0.069,
+          "limite_especificacion_inferior": 0.996487,
+          "limite_especificacion_superior": 1.003487
+        },
+        {
+          "intervalo": "3 A @ 1 kHz",
+          "valor_referencia": 3.0020460,
+          "indicacion_promedio": 3.005195,
+          "sesgo_instrumental_unidades": 0.003149,
+          "sesgo_instrumental_porcentaje": 0.10,
+          "incertidumbre": 0.13,
+          "limite_especificacion_inferior": 2.993941,
+          "limite_especificacion_superior": 3.010151
+        },
+        {
+          "intervalo": "10 A @ 1 kHz",
+          "valor_referencia": 3.002046,
+          "indicacion_promedio": 3.00039,
+          "sesgo_instrumental_unidades": -0.00165,
+          "sesgo_instrumental_porcentaje": -0.06,
+          "incertidumbre": 0.13,
+          "limite_especificacion_inferior": 2.99354,
+          "limite_especificacion_superior": 3.01055
+        },
+        {
+          "intervalo": "10 A @ 1 kHz",
+          "valor_referencia": 10.005000,
+          "indicacion_promedio": 10.01093,
+          "sesgo_instrumental_unidades": 0.00593,
+          "sesgo_instrumental_porcentaje": 0.059,
+          "incertidumbre": 0.098,
+          "limite_especificacion_inferior": 9.97599,
+          "limite_especificacion_superior": 10.03401
+        }
+      ]
+    },
+    {
+      "titulo": "Frecuencia",
+      "mesurando": "Frecuencia",
+      "unit": "Hz, kHz, %L",
+      "ecuation_calibration": "",
+      "range": "10 Hz @ 1 V - 300 kHz @ 1 V",
+      "columnas": [
+        {
+          "key": "intervalo",
+          "label": "Intervalo",
+          "unit": "",
+          "type": "string"
+        },
+        {
+          "key": "valor_referencia",
+          "label": "Patrón Valor de Referencia de la Magnitud",
+          "unit": "Hz, kHz",
+          "type": "number"
+        },
+        {
+          "key": "indicacion_promedio",
+          "label": "Indicación Promedio",
+          "unit": "Hz, kHz",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_unidades",
+          "label": "Sesgo Instrumental",
+          "unit": "Hz, kHz",
+          "type": "number"
+        },
+        {
+          "key": "sesgo_instrumental_porcentaje",
+          "label": "Sesgo Instrumental",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "incertidumbre",
+          "label": "Incertidumbre Instrumental ¹",
+          "unit": "%L",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_inferior",
+          "label": "Límites de Especificación (Inferior)",
+          "unit": "Hz, kHz",
+          "type": "number"
+        },
+        {
+          "key": "limite_especificacion_superior",
+          "label": "Límites de Especificación (Superior)",
+          "unit": "Hz, kHz",
+          "type": "number"
+        }
+      ],
+      "filas": [
+        {
+          "intervalo": "10 Hz @ 1 V",
+          "valor_referencia": 9.999789,
+          "indicacion_promedio": 10.00020,
+          "sesgo_instrumental_unidades": 0.00041,
+          "sesgo_instrumental_porcentaje": 0.00406,
+          "incertidumbre": 0.00028,
+          "limite_especificacion_inferior": 9.99279,
+          "limite_especificacion_superior": 10.00679
+        },
+        {
+          "intervalo": "100 Hz @ 1 V",
+          "valor_referencia": 89.999021,
+          "indicacion_promedio": 90.00194,
+          "sesgo_instrumental_unidades": 0.00292,
+          "sesgo_instrumental_porcentaje": 0.003240,
+          "incertidumbre": 0.000074,
+          "limite_especificacion_inferior": 89.97202,
+          "limite_especificacion_superior": 90.02602
+        },
+        {
+          "intervalo": "1 kHz @ 1 V",
+          "valor_referencia": 99.99888,
+          "indicacion_promedio": 100.0021,
+          "sesgo_instrumental_unidades": 0.0033,
+          "sesgo_instrumental_porcentaje": 0.00325,
+          "incertidumbre": 0.00010,
+          "limite_especificacion_inferior": 99.9919,
+          "limite_especificacion_superior": 100.0059
+        },
+        {
+          "intervalo": "1 kHz @ 1 V",
+          "valor_referencia": 899.99021,
+          "indicacion_promedio": 900.0195,
+          "sesgo_instrumental_unidades": 0.0293,
+          "sesgo_instrumental_porcentaje": 0.003251,
+          "incertidumbre": 0.000073,
+          "limite_especificacion_inferior": 899.9272,
+          "limite_especificacion_superior": 900.0532
+        },
+        {
+          "intervalo": "300 kHz @ 1 V",
+          "valor_referencia": 29.999672,
+          "indicacion_promedio": 30.00065,
+          "sesgo_instrumental_unidades": 0.00098,
+          "sesgo_instrumental_porcentaje": 0.003259,
+          "incertidumbre": 0.000075,
+          "limite_especificacion_inferior": 29.99757,
+          "limite_especificacion_superior": 30.00177
+        },
+        {
+          "intervalo": "300 kHz @ 1 V",
+          "valor_referencia": 149.99872,
+          "indicacion_promedio": 150.0032,
+          "sesgo_instrumental_unidades": 0.0045,
+          "sesgo_instrumental_porcentaje": 0.002984,
+          "incertidumbre": 0.000082,
+          "limite_especificacion_inferior": 149.9882,
+          "limite_especificacion_superior": 150.0092
+        },
+        {
+          "intervalo": "300 kHz @ 1 V",
+          "valor_referencia": 299.99682,
+          "indicacion_promedio": 300.0065,
+          "sesgo_instrumental_unidades": 0.0097,
+          "sesgo_instrumental_porcentaje": 0.003228,
+          "incertidumbre": 0.000075,
+          "limite_especificacion_inferior": 299.9758,
+          "limite_especificacion_superior": 300.0178
+        }
+      ]
+    }
+  ]
+}

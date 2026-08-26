@@ -17,8 +17,9 @@ async function crearCertificado(datosCertificado) {
     name_equipment,
     date_cal,
     date_cc,
-    mesureament,
-    range,
+    entity,
+    cert_type,
+    comments,
     active,
     data
   } = datosCertificado;
@@ -30,12 +31,13 @@ async function crearCertificado(datosCertificado) {
       name_equipment,
       date_cal,
       date_cc,
-      mesureament,
-      range,
+      entity,
+      cert_type,
+      comments,
       active,
       data
     )
-    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
+    VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
     RETURNING *;
   `;
 
@@ -46,15 +48,16 @@ async function crearCertificado(datosCertificado) {
     name_equipment,
     date_cal,
     date_cc,
-    mesureament,
-    range,
+    entity,
+    cert_type,
+    comments,
     active ?? true,
     data ? JSON.stringify(data) : null
   ];
 
   try {
     const res = await pool.query(query, values);
-    console.log('Certificado guardado con éxito:', res.rows[0]);
+    //console.log('Certificado guardado con éxito:', res.rows[0]);
     return res.rows[0];
   } catch (err) {
     console.error('Error al insertar certificado:', err);
@@ -75,7 +78,7 @@ async function obtenerCertificados() {
 }
 
 // Obtener un certificado por su ID autoincremental de la base de datos
-async function obtenerCertificadoPorId(id) {
+async function obtenerCertificadoId(id) {
   const query = 'SELECT * FROM certificados WHERE id = $1;';
   try {
     const res = await pool.query(query, [id]);
@@ -87,7 +90,7 @@ async function obtenerCertificadoPorId(id) {
 }
 
 // Obtener un certificado por equipment_id
-async function obtenerCertificadoPorEquipmentId(equipmentId) {
+async function obtenerCertificadoEquipmentId(equipmentId) {
   const query = 'SELECT * FROM certificados WHERE equipment_id = $1;';
   try {
     const res = await pool.query(query, [equipmentId]);
@@ -130,10 +133,11 @@ async function modificarCertificado(id, datosActualizados) {
     name_equipment,
     date_cal,
     date_cc,
-    mesureament,
-    range,
+    entity,
+    cert_type,
+    comments,
     active,
-    data
+    data,
   } = datosActualizados;
 
   const query = `
@@ -144,11 +148,12 @@ async function modificarCertificado(id, datosActualizados) {
       name_equipment = $3,
       date_cal = $4,
       date_cc = $5,
-      mesureament = $6,
-      range = $7,
-      active = $8,
-      data = $9
-    WHERE id = $10
+      entity = $6,
+      cert_type = $7,
+      comments = $8,
+      active = $9,
+      data = $10
+    WHERE id = $11
     RETURNING *;
   `;
 
@@ -158,8 +163,9 @@ async function modificarCertificado(id, datosActualizados) {
     name_equipment,
     date_cal,
     date_cc,
-    mesureament,
-    range,
+    entity,
+    cert_type,  
+    comments,
     active ?? true,
     data ? JSON.stringify(data) : null,
     id
@@ -178,8 +184,8 @@ module.exports = {
   query: (text, params) => pool.query(text, params),
   crearCertificado,
   obtenerCertificados,
-  obtenerCertificadoPorId,
-  obtenerCertificadoPorEquipmentId,
+  obtenerCertificadoId,
+  obtenerCertificadoEquipmentId,
   desactivarCertificado,
   activarCertificado,
   modificarCertificado
