@@ -10,6 +10,7 @@ const {
   activarCertificado, 
   modificarCertificado,
   obtenerCertificadoEquipmentId,
+  eliminarCertificado
 } = require('../controllers/basedatos');
 
 // Controlador para el procesamiento de la imagen
@@ -129,6 +130,25 @@ router.put('/certificados/:id/save', async (req, res) => {
     res.status(500).json({
       ok: false,
       message: 'Error al modificar el certificado'
+    });
+  }
+});
+
+// DELETE: Eliminar un certificado
+router.delete('/certificados/:id/eliminar', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const certificadoEliminado = await eliminarCertificado(id);
+
+    res.status(200).json({
+      ok: true,
+      data: certificadoEliminado
+    });
+  } catch (error) {
+    console.error('Error al eliminar el certificado:', error);
+    res.status(500).json({
+      ok: false,
+      message: 'Error al eliminar el certificado'
     });
   }
 });

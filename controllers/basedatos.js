@@ -180,6 +180,17 @@ async function modificarCertificado(id, datosActualizados) {
   }
 }
 
+async function eliminarCertificado(id) {
+  const query = 'DELETE FROM certificados WHERE id = $1 RETURNING *;';
+  try {
+    const res = await pool.query(query, [id]);
+    return res.rows[0];
+  } catch (err) {
+    console.error('Error al eliminar el certificado:', err);
+    throw err;
+  }
+}
+
 module.exports = {
   query: (text, params) => pool.query(text, params),
   crearCertificado,
@@ -188,5 +199,6 @@ module.exports = {
   obtenerCertificadoEquipmentId,
   desactivarCertificado,
   activarCertificado,
-  modificarCertificado
+  modificarCertificado,
+  eliminarCertificado
 };
